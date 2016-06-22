@@ -1,0 +1,3 @@
+{% for authProvider in authProviders %}
+  <a href="/auth/{{authProvider.key}}"> Login with {{authProvider.value.presentationName}}</a>
+{% endfor %}
